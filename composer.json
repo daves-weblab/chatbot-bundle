@@ -1,0 +1,23 @@
+{
+  "name": "daves-weblab/chatbot-bundle",
+  "version": "0.0.1",
+  "license": "GPL-3.0-or-later",
+  "type": "pimcore-bundle",
+  "config": {
+    "sort-packages": true
+  },
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "DavesWeblab\\": "src/"
+    }
+  },
+  "extra": {
+    "pimcore": {
+      "bundles": [
+        "DavesWeblab\\ChatbotBundle\\DavesWeblabChatbotBundle"
+      ]
+    }
+  }
+}
